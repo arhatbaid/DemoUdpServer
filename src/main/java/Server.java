@@ -12,7 +12,7 @@ public class Server {
 
     public static void main(String[] args) {
         try {
-            socket = new DatagramSocket(4445);
+            socket = new DatagramSocket(8080);
         } catch (SocketException e) {
             e.printStackTrace();
         }
