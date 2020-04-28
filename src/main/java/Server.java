@@ -22,7 +22,6 @@ public class Server {
 
     public static void run() {
 
-
         new Thread(() -> {
             while (true) {
                 DatagramPacket packet
