@@ -7,9 +7,8 @@ import java.net.SocketException;
 public class Server {
 
     private static DatagramSocket socket;
-    private boolean running;
     private static byte[] buf = new byte[256];
-
+    private boolean running;
 
     public static void main(String[] args) {
         try {
